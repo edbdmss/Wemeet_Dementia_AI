@@ -1,5 +1,15 @@
+# 1. 데이터 
 data/
-test_data/
-
 *.csv
 *.xlsx
+*.npy
+
+# 2. 시스템 파일 
+.DS_Store
+Thumbs.db
+
+# 3. 파이썬 자동생성 파일
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
